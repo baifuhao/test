@@ -24,6 +24,7 @@ public class TestController {
     @RequestMapping("querybankCardinfo")
     public List<bankCard> querybankCardinfo(){
 
+
         return testService.querybankCardinfo();
     }
 }
