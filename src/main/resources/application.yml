@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@47.95.239.121:1521:app
+    username: yinhecrm
+    password: yinhecrm
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+
+
